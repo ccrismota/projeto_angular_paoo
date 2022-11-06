@@ -1,1 +1,15 @@
-# projeto_angular_paoo
+# :school: Fatec Ipiranga - Pastor Enéas Tognini 
+##  :pencil: PAOO - Programação Avançada Orientada a Objetos 
+
+### :cop: Cícero Cistiano Rodrigues da Mota
+### :checkered_flag: R.A. 204048211301
+
+### :cop: Guilherme
+### :checkered_flag: R.A. 
+
+### :cop: Samuel Figueiredo Silveira
+### :checkered_flag: R.A. 
+
+:green_book: Projeto P2
+
+:pencil: PAOO - Trabalho desenvolvido em grupo 
