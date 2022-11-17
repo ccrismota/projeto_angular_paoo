@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ProjetoAngularPaoo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
@@ -25,3 +26,20 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# :school: Fatec Ipiranga - Pastor Enéas Tognini 
+##  :pencil: PAOO - Programação Avançada Orientada a Objetos 
+
+### :cop: Cícero Cistiano Rodrigues da Mota
+### :checkered_flag: R.A. 204048211301
+
+### :cop: Guilherme
+### :checkered_flag: R.A. 
+
+### :cop: Samuel Figueiredo Silveira
+### :checkered_flag: R.A. 
+
+:green_book: Projeto P2
+
+:pencil: PAOO - Trabalho desenvolvido em grupo 
+>>>>>>> d7eeac45352fa83c2ea753d167afade1a597f25f
