@@ -1,2 +1,12 @@
-<app-pesquisar-clima-cidade></app-pesquisar-clima-cidade>
+<div class="flex align-items-center justify-content-center">
+  <p-tabView>
+    <p-tabPanel header="Pesquisar">
+      <app-pesquisar-clima-cidade></app-pesquisar-clima-cidade>
+    </p-tabPanel>
 
+    <!-- Inicio do historico -->
+    <p-tabPanel header="Histórico">
+      <app-historico-pesquisa-clima></app-historico-pesquisa-clima>
+    </p-tabPanel>
+  </p-tabView>
+</div>

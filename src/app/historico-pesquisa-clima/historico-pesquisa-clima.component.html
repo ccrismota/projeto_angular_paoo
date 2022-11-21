@@ -1,20 +1,17 @@
-<div>
-  <p-table>
+<div class="border-solid border-1 p-5 border-round border-primary">
+  <p-table [value]="historico">
     <ng-template pTemplate="header">
       <tr>
-        <th>Tem Mín.</th>
-        <th>Tem Máx.</th>
-        <th>Prev.</th>
+        <th>Data</th>
+        <th>Cidade</th>
+        <th>Clima</th>
       </tr>
     </ng-template>
-    <ng-template pTemplate="body" let-previsao>
-      <div id="data-hora">
-        <span></span>
-      </div>
+    <ng-template pTemplate="body" let-history>
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>{{ history.data_previsao | date: 'dd/MM' }}</td>
+        <td>{{ history.cidade }}</td>
+        <td><img src="{{history.clima}}" alt=""></td>
       </tr>
     </ng-template>
   </p-table>

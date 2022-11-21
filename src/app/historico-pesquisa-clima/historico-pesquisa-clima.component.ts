@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HistoricoDaPesquisa } from '../models/historico-da_pesquisa';
+import { PesquisaService } from '../services/pesquisa.service';
 
 @Component({
   selector: 'app-historico-pesquisa-clima',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoricoPesquisaClimaComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private pesquisaService: PesquisaService
+  ) { }
+
+
+
+  historico: HistoricoDaPesquisa[];
+
+
 
   ngOnInit(): void {
+    this.pesquisaService.registrarHistorico().subscribe((historico: any) =>{
+      this.historico = historico.items;
+    })
   }
 
 }
