@@ -14,15 +14,13 @@ export class HistoricoPesquisaClimaComponent implements OnInit {
   ) { }
 
 
-
   historico: HistoricoDaPesquisa[];
-
 
 
   ngOnInit(): void {
     this.pesquisaService.registrarHistorico().subscribe((historico: any) =>{
       this.historico = historico.items;
-    })
+    });
+    this.pesquisaService.getHistorico();
   }
-
 }

@@ -21,7 +21,7 @@ export class PesquisaService {
   constructor(private httpClient: HttpClient) { }
 
    pesquisar(cidade: string): void {
-   this.url = `${this.url}?q=${cidade}&lang=pt_br&appid=${this.appid}&units=metric`;
+   this.url = `${this.url}?q=${cidade}&appid=${this.appid}&lang=pt_br&units=metric`;
    this.httpClient.get<DadosPesquisa[]>(this.url).subscribe((resposta: any) => {
     const icon =  resposta.list[0].weather[0].icon;
     this.armazenarNoBanco(cidade, `http://openweathermap.org/img/wn/${icon}.png`);

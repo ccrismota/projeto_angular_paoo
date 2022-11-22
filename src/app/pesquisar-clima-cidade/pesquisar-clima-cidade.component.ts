@@ -31,9 +31,7 @@ export class PesquisarClimaCidadeComponent implements OnInit {
     this.cidade = '';
   }
 
-  recarregar() {
-    location.reload();
-  }
+
 
   ngOnInit(): void {
     this.pesquisaService.registrarComponente().subscribe((previsoes: any) => {
