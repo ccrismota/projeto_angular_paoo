@@ -1,4 +1,4 @@
-<div class="border-solid border-1 p-5 border-round border-primary">
+<div class="border-solid border-1 p-5 border-round border-primary max-h-full">
   <p-table [value]="historico">
     <ng-template pTemplate="header">
       <tr>
@@ -9,7 +9,7 @@
     </ng-template>
     <ng-template pTemplate="body" let-history>
       <tr>
-        <td>{{ history.data_previsao | date: 'dd/MM' }}</td>
+        <td>{{ history.data_previsao | date: 'dd/MM HH:mm:ss' }}</td>
         <td>{{ history.cidade }}</td>
         <td><img src="{{history.clima}}" alt=""></td>
       </tr>

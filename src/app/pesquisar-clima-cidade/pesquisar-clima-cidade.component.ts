@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { FormBuilder } from '@angular/forms';
 import { DadosPesquisa } from '../models/dados-pesquisa';
 import { PesquisaService } from '../services/pesquisa.service';
 
@@ -10,9 +11,9 @@ import { PesquisaService } from '../services/pesquisa.service';
 
 export class PesquisarClimaCidadeComponent implements OnInit {
 
+
   cidade: string;
   valor: string;
-  conte: number;
 
   constructor(
     private pesquisaService: PesquisaService
@@ -30,7 +31,6 @@ export class PesquisarClimaCidadeComponent implements OnInit {
     this.valor = this.cidade;
     this.cidade = '';
   }
-
 
 
   ngOnInit(): void {
