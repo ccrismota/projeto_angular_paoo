@@ -13,4 +13,3 @@
 :green_book: Projeto P2
 
 :pencil: PAOO - Trabalho desenvolvido em grupo 
->>>>>>> d7eeac45352fa83c2ea753d167afade1a597f25f
